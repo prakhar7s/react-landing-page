@@ -1,0 +1,166 @@
+.landing-page {
+  min-height: 100vh;
+  padding: 20px 60px;
+  background: #f4f4f4;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 90%;
+  min-height: 100%;
+  grid-template-areas: "header header" "leftPortion svgImage";
+  place-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  grid-area: header;
+  align-items: center;
+}
+
+.app-name {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.app-name .first {
+  font-size: 25px;
+  margin: 0 1px;
+  font-weight: 800;
+}
+
+.header-links a {
+  background: black;
+  margin: 10px;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.header-links a:first-child {
+  background: transparent;
+  color: black;
+  text-transform: none;
+}
+
+.left-portion {
+  grid-area: leftPortion;
+  padding: 20px;
+}
+
+.left-portion .heading {
+  font-size: 35px;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+.left-portion p {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 10px 0;
+}
+
+.svg-image {
+  grid-area: svgImage;
+}
+
+.links {
+  margin: 60px 0;
+}
+
+.links a {
+  padding: 10px 20px;
+  color: black;
+  opacity: 0.88;
+  text-decoration: none;
+  margin: 10px 20px;
+  border: 1px solid black;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.links a:first-of-type {
+  background: black;
+  color: white;
+  margin: 10px 0;
+}
+
+.svg-image svg {
+  width: 140%;
+  width: "100%";
+  height: "100%";
+}
+
+.brands {
+  width: 320px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+}
+
+.brands .MuiSvgIcon-root,
+.brands h4 {
+  width: 50px;
+  margin: 10px;
+}
+
+.brands .MuiSvgIcon-root {
+  font-size: 33px;
+}
+
+.brands .MuiSvgIcon-root:first-child,
+.brands .MuiSvgIcon-root:nth-child(5) {
+  margin-left: 0;
+}
+
+.brands h4 {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 860px) {
+  .landing-page {
+    min-height: 100vh;
+    padding: 20px;
+    background: #f4f4f4;
+    width: 100vw;
+  }
+
+  .container {
+    grid-template-rows: 1% 45% 45%;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "svgImage" "leftPortion";
+  }
+
+  .svg-image svg {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .landing-page {
+    padding: 30px 10px;
+  }
+
+  header {
+    width: 90%;
+    padding-right: 7px;
+  }
+
+  .header-links a {
+    margin: 0 2px;
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+}
