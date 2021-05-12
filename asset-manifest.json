@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-landing-page/static/css/main.267aa3b0.chunk.css",
+    "main.css": "/react-landing-page/static/css/main.801652b9.chunk.css",
     "main.js": "/react-landing-page/static/js/main.8e7cbdd7.chunk.js",
     "main.js.map": "/react-landing-page/static/js/main.8e7cbdd7.chunk.js.map",
     "runtime-main.js": "/react-landing-page/static/js/runtime-main.38d38d51.js",
@@ -8,14 +8,14 @@
     "static/js/2.f6f47382.chunk.js": "/react-landing-page/static/js/2.f6f47382.chunk.js",
     "static/js/2.f6f47382.chunk.js.map": "/react-landing-page/static/js/2.f6f47382.chunk.js.map",
     "index.html": "/react-landing-page/index.html",
-    "static/css/main.267aa3b0.chunk.css.map": "/react-landing-page/static/css/main.267aa3b0.chunk.css.map",
+    "static/css/main.801652b9.chunk.css.map": "/react-landing-page/static/css/main.801652b9.chunk.css.map",
     "static/js/2.f6f47382.chunk.js.LICENSE.txt": "/react-landing-page/static/js/2.f6f47382.chunk.js.LICENSE.txt",
     "static/media/real-time.99662ffa.svg": "/react-landing-page/static/media/real-time.99662ffa.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.38d38d51.js",
     "static/js/2.f6f47382.chunk.js",
-    "static/css/main.267aa3b0.chunk.css",
+    "static/css/main.801652b9.chunk.css",
     "static/js/main.8e7cbdd7.chunk.js"
   ]
 }
